@@ -1,8 +1,17 @@
-<script setup>
+<script>
+    import AppLayout from "./app-layout.vue";
+    export default {
+        components: {AppLayout},
+        data(){
+            return {
+                module: 'login'
+            }
+        }
+    }
 </script>
 
 <template>
-    login
+    <app-layout :module="module"></app-layout>
 </template>
 
 <style scoped>

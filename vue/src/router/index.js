@@ -3,7 +3,6 @@ import Login from '../components/Login.vue'
 import Dashboard from '../components/Dashboard.vue'
 import About from '../components/About.vue'
 
-
 const routes = [
     {
         path: '/',
@@ -14,7 +13,7 @@ const routes = [
     }, {
         path: '/dashboard',
         component: Dashboard
-    }
+    },
 ]
 
 const router = createRouter({

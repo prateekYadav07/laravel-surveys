@@ -1,9 +1,12 @@
-<script setup>
-
+<script>
+    import AppLayout from "./app-layout.vue";
+    export default {
+        components: {AppLayout}
+    }
 </script>
 
 <template>
-    About
+    <app-layout></app-layout>
 </template>
 
 <style scoped>
